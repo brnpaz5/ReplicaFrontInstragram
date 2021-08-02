@@ -1,0 +1,115 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
+
+#cell{
+    width: 25rem;
+}
+
+.input{
+    display: grid;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    justify-content: center; 
+    align-items: center;
+    padding-left: 15px;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.input input{
+    display: grid;
+    border: 1px solid lightgray; 
+    height: 30px;
+    width: 280px;
+    margin: 5px 1px;
+}
+.input button{
+    width: 280px;
+    height: 30px;
+    background: #B2DFFC;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.input button span{
+    color: #FFF;
+    font-weight: bold;
+}
+.input img{
+    width: 80%;
+    margin-left: 10px;
+}
+.input p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #252424;
+}
+.input p a{
+    color: #0095F6;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+.log{
+    justify-content: center;
+    align-items: center;
+    
+}
+.phone{
+    align-items: center;
+    justify-content: center;
+}
+.store{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#imgapple{
+    width: 170px;
+    height: 50px;
+}
+#imggoogle{
+    width: 175px;
+    height: 51px;
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+footer a{
+    text-decoration-line: none;
+    color: #252424;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.footmenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    padding: 7px;
+}
+.idioma{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #252424;
+}
+.idioma a{
+    margin-right: 15px;
+}
